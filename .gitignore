@@ -1,0 +1,13 @@
+# 运行时/构建产物
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# 本机生成、含个人信息的文件（仓库里只保留 *.example.json）
+tools/auto-migrate-config.json
+tools/auto-migrate.log
+tools/auto-migrate-result.json
+tools/_shots/
+docs/_shots/

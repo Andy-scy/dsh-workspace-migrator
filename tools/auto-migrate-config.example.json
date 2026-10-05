@@ -1,0 +1,14 @@
+{
+  "_说明": "无人值守迁移的配置模板。复制成 auto-migrate-config.json 再改成你自己的值；该文件已被 .gitignore 忽略。",
+  "home": "C:\\Users\\<你>\\.dsh",
+  "to": "C:\\Projects\\新工作区",
+  "parent": "<主会话 id，可用 --list 查>",
+  "sessionIds": [
+    "<主会话 id>",
+    "<子代理会话 id>",
+    "<子代理会话 id>"
+  ],
+  "log": "auto-migrate.log",
+  "result": "auto-migrate-result.json",
+  "taskName": "DSH-AutoMigrate"
+}
